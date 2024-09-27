@@ -1,0 +1,51 @@
+.container2 {
+	width: 40rem;
+	height: 23rem;
+	background-color: var(--color-background);
+	border-radius: 0.5rem;
+	color: var(--color-white);
+	display: flex;
+	justify-content: space-between;
+	overflow: scroll;
+}
+
+.table1,
+.table2 {
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem;
+}
+
+.containerTemp {
+	gap: 2rem;
+}
+
+.tableRow {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 1.5rem;
+	cursor: pointer;
+}
+
+.cancelStudent {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.cancelButton {
+	padding: 0.2rem 0.6rem;
+	background-color: var(--color-background-variant);
+	color: var(--color-white);
+	border: 2px solid var(--color-white);
+	border-radius: 0.5rem;
+	box-shadow: -91px -30px 165px 15px rgba(0, 0, 0, 0.35) inset;
+	-webkit-box-shadow: -91px -30px 165px 15px rgba(0, 0, 0, 0.35) inset;
+	-moz-box-shadow: -91px -30px 165px 15px rgba(0, 0, 0, 0.35) inset;
+}
+
+.tableBody {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}

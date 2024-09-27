@@ -1,0 +1,46 @@
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	width: 40%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-background);
+	border-radius: 0.5rem;
+	gap: 1rem;
+}
+
+input {
+	padding: 0.5rem;
+	width: 70%;
+	color: var(--color-text);
+	border-radius: 0.5rem;
+	color: var(--color-background);
+	cursor: pointer;
+}
+h1 {
+	padding-bottom: 5rem;
+	color: var(--color-white);
+}
+
+a {
+	color: var(--color-white);
+	transition: var(--transition);
+	cursor: pointer;
+}
+
+a:hover {
+	color: var(--color-text);
+}
+
+#login {
+	background-color: var(--color-white);
+	color: var(--color-background);
+}

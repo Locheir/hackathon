@@ -1,0 +1,19 @@
+.TempRow {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-self: start;
+	color: var(--color-text);
+}
+
+.table {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding: 2rem;
+}
+
+.color {
+	color: var(--color-light-blue);
+}

@@ -1,0 +1,25 @@
+.tempForm {
+	width: 80%;
+	height: 70%;
+	overflow: scroll;
+	/* box-shadow: -91px -30px 165px 15px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: -91px -30px 165px 15px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: -91px -30px 165px 15px rgba(0, 0, 0, 0.35); */
+}
+
+.TempRow {
+	display: flex;
+	justify-content: space-between;
+	width: 50rem;
+	text-align: center;
+	color: var(--color-text);
+}
+
+.color {
+	color: var(--color-light-blue);
+}
+
+h3 {
+	padding-top: 2rem;
+	color: var(--color-white);
+}

@@ -1,0 +1,21 @@
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 50%;
+	height: 70%;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color-background);
+	border-radius: 0.5rem;
+	gap: 1.1rem;
+}
+
+.registerForm {
+	width: 60%;
+	height: 70%;
+}
+
+.hidden {
+	display: none;
+}
